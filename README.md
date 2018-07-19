@@ -1,4 +1,4 @@
-# bluerain Platform-react-native
+# bluerain-platform-react-native
 
 It is used to provide react-native components and APis for your  native App using [react-native](https://facebook.github.io/react-native/)  .     [https://blueeast.gitbook.io/bluerain-platform-react-native](https://blueeast.gitbook.io/bluerain-platform-react-native)
 
