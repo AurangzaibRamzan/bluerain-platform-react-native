@@ -22,12 +22,12 @@ import RN from 'react-native';
 import React from 'react';
 
 /**
- * Main React-native-web Plugin class.
+ * Main React-native Plugin class.
  * @property {string} pluginName "ReactNative"
  * @property {string} slug "react-native"
  */
 
-class ReactNativeWeb extends Plugin {
+class ReactNative extends Plugin {
 	static pluginName = 'ReactNative';
 	static slug = 'react-native';
 
@@ -75,4 +75,4 @@ class ReactNativeWeb extends Plugin {
 	}
 }
 
-export default ReactNativeWeb;
+export default ReactNative;
