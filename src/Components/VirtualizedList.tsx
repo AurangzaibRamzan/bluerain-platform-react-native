@@ -1,4 +1,4 @@
-import RN from 'react-native-web';
+import RN from 'react-native';
 import React from 'react';
 
 export const VirtualizedList = (props) => {

@@ -1,5 +1,5 @@
 import { Linking as ILinking } from '@blueeast/bluerain-os';
-import RN from 'react-native-web';
+import RN from 'react-native';
 import SyncTasks from 'synctasks';
 
 export class Linking implements ILinking {
