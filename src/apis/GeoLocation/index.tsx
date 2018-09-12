@@ -1,12 +1,10 @@
 
 import { GeoLocation as IGeoLocation } from '@blueeast/bluerain-os';
-import RN from 'react-native';
-
 import SyncTasks from 'synctasks';
 
 export class GeoLocation implements IGeoLocation {
-	getCurrentPosition(Success:any) {
-		return RN.Geolocation.getCurrentPosition(Success);
+	getCurrentPosition(success:any, error:any, options:any ) {
+		return navigator.geolocation.getCurrentPosition(success, error, options);
 	}
 
 	isAvailable(): boolean {
@@ -14,14 +12,14 @@ export class GeoLocation implements IGeoLocation {
 	}
 
 	clearWatch(watchID: number): void {
-		return RN.Geolocation.clearWatch(watchID);
+		return navigator.geolocation.clearWatch(watchID);
 	}
 	watchPosition(
 		successCallback: () => void,
 		errorCallback?: () => void,
 		options?: PositionOptions
 	) {
-		return RN.Geolocation.watchPosition(successCallback,errorCallback,options);
+		return navigator.geolocation.watchPosition(successCallback,errorCallback,options);
 	}
 	stopObserving(): void {
 		throw new Error('stopObserving is yet to be implemented');

@@ -27,7 +27,7 @@
   },
   "scripts": {
     "lint": "tslint -t codeFrame 'src/**/*.ts' 'test/**/*.ts'",
-    "build": "rm -rf dist && bluerain build plugin",
+    "build": "tsc",
     "start": "tsc -w",
     "test": "jest --coverage",
     "test:watch": "jest --watch",
