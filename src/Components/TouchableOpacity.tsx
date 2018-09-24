@@ -1,7 +1,7 @@
 import RN from 'react-native';
 import React from 'react';
 
-export const VirtualizedList = (props) => {
+export const TouchableOpacity = (props) => {
 
 	const { styles = {}, ...others } = props;
 
@@ -13,5 +13,5 @@ export const VirtualizedList = (props) => {
 		stylesheet = RN.StyleSheet.create(styles);
 	}
 
-	return <RN.VirtualizedList style={stylesheet}  {...others} />;
+	return <RN.TouchableOpacity style={stylesheet}  {...others} />;
 };
