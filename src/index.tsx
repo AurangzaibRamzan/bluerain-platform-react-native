@@ -11,6 +11,7 @@ import {
 	SwitchToggle,
 	Text,
 	TextInput,
+	TouchableOpacity,
 	View,
 	VirtualizedList
 } from './Components';
@@ -48,6 +49,7 @@ class ReactNative extends Plugin {
 		SwitchToggle,
 		Text,
 		TextInput,
+		TouchableOpacity,
 		View,
 		VirtualizedList
 
