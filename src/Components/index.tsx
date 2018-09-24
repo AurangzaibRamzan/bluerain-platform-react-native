@@ -12,6 +12,7 @@ export  { StatusBar } from  './StatusBar';
 export { SwitchToggle } from   './SwitchToggle';
 export  { Text } from  './Text';
 export { TextInput } from   './TextInput';
+export { TouchableOpacity } from   './TouchableOpacity';
 export  { View }  from './View';
 export { VirtualizedList } from   './VirtualizedList';
 
