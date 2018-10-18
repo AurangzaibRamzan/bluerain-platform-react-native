@@ -5,6 +5,7 @@ import {
 	Image, Modal,
 	Picker,
 	ProgressBar,
+	ScrollView,
 	SectionList
 	, Slider,
 	StatusBar,
@@ -43,6 +44,7 @@ class ReactNative extends Plugin {
 		Modal,
 		Picker,
 		ProgressBar,
+		ScrollView,
 		SectionList,
 		Slider,
 		StatusBar,

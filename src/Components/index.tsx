@@ -6,6 +6,7 @@ export { Image }  from  './Image';
 export  { Modal }  from './Modal';
 export  { Picker } from './Picker';
 export { ProgressBar }  from  './ProgressBar';
+export { ScrollView }from   './ScrollView';
 export { SectionList }from   './SectionList';
 export  { Slider } from  './Slider';
 export  { StatusBar } from  './StatusBar';
