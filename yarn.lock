@@ -538,11 +538,11 @@
     shelljs "^0.8.1"
     yargs "^11.0.0"
 
-"@blueeast/bluerain-os@^3.13.4":
-  version "3.14.2"
-  resolved "https://registry.yarnpkg.com/@blueeast/bluerain-os/-/bluerain-os-3.14.2.tgz#3cdadc816723d9444fac196296bbece4fdbe9c5f"
+"@blueeast/bluerain-os@^3.15.2":
+  version "3.15.2"
+  resolved "https://registry.yarnpkg.com/@blueeast/bluerain-os/-/bluerain-os-3.15.2.tgz#178c724a97407eef8f690df70ad0e8c3f6fb43fb"
   dependencies:
-    "@blueeast/bluerain-ui-interfaces" "^3.2.12"
+    "@blueeast/bluerain-ui-interfaces" "^4.0.0-beta.9"
     "@blueeast/proxy-polyfill" "^0.1.9"
     babel-polyfill "^6.26.0"
     create-react-context "^0.2.1"
@@ -559,9 +559,15 @@
     react-dom-factories "^1.0.2"
     recompose "^0.27.1"
 
-"@blueeast/bluerain-ui-interfaces@^3.2.12", "@blueeast/bluerain-ui-interfaces@^3.2.9":
+"@blueeast/bluerain-ui-interfaces@^3.2.9":
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/@blueeast/bluerain-ui-interfaces/-/bluerain-ui-interfaces-3.4.0.tgz#247969ee7b7f3b70d721dbcc5794570448bf35a3"
+  dependencies:
+    react "^16.2.0"
+
+"@blueeast/bluerain-ui-interfaces@^4.0.0-beta.9":
+  version "4.0.0-beta.9"
+  resolved "https://registry.yarnpkg.com/@blueeast/bluerain-ui-interfaces/-/bluerain-ui-interfaces-4.0.0-beta.9.tgz#db72e458fbda74cada80ebb8763432a817d97e63"
   dependencies:
     react "^16.2.0"
 
@@ -2974,8 +2980,8 @@ deepmerge@2.0.1:
   resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-2.0.1.tgz#25c1c24f110fb914f80001b925264dd77f3f4312"
 
 deepmerge@^2.0.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-2.1.1.tgz#e862b4e45ea0555072bf51e7fd0d9845170ae768"
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-2.2.1.tgz#5d3ff22a01c00f645405a2fbc17d0778a1801170"
 
 default-require-extensions@^1.0.0:
   version "1.0.0"
@@ -7494,15 +7500,6 @@ react-dom-factories@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/react-dom-factories/-/react-dom-factories-1.0.2.tgz#eb7705c4db36fb501b3aa38ff759616aa0ff96e0"
 
-react-dom@^16.3.2:
-  version "16.5.0"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.5.0.tgz#57704e5718669374b182a17ea79a6d24922cb27d"
-  dependencies:
-    loose-envify "^1.1.0"
-    object-assign "^4.1.1"
-    prop-types "^15.6.2"
-    schedule "^0.3.0"
-
 react-is@^16.4.2, react-is@^16.5.0:
   version "16.5.0"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.5.0.tgz#2ec7c192709698591efe13722fab3ef56144ba55"
@@ -7594,7 +7591,7 @@ react-transform-hmr@^1.0.4:
     global "^4.3.0"
     react-proxy "^1.1.7"
 
-react@^16.2.0, react@^16.3.2:
+react@^16.2.0:
   version "16.5.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.5.0.tgz#f2c1e754bf9751a549d9c6d9aca41905beb56575"
   dependencies:
