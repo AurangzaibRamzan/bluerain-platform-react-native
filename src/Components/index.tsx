@@ -16,6 +16,7 @@ export { TextInput } from   './TextInput';
 export { TouchableOpacity } from   './TouchableOpacity';
 export  { View }  from './View';
 export { VirtualizedList } from   './VirtualizedList';
+export { SafeAreaView } from   './SafeAreaView';
 
 
 
