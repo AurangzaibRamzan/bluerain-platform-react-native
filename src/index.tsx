@@ -14,7 +14,8 @@ import {
 	TextInput,
 	TouchableOpacity,
 	View,
-	VirtualizedList
+	VirtualizedList,
+	SafeAreaView
 } from './Components';
 import { AppState, AsyncStorage, Clipboard, Dimensions, GeoLocation, Linking } from './apis';
 import BR, { BlueRain, Plugin } from '@blueeast/bluerain-os';
@@ -32,7 +33,6 @@ import React from 'react';
 class ReactNative extends Plugin {
 	static pluginName = 'ReactNative';
 	static slug = 'react-native';
-
 	static components = {
 
 		// Registering Components
@@ -52,8 +52,9 @@ class ReactNative extends Plugin {
 		Text,
 		TextInput,
 		TouchableOpacity,
+		SafeAreaView,
 		View,
-		VirtualizedList
+		VirtualizedList,
 
 	};
 
@@ -71,10 +72,10 @@ class ReactNative extends Plugin {
 
 		// setMainView in Bluerain
 
-		 ctx.Utils.setMainView = (App) => {
-		 	RN.AppRegistry.registerComponent('MyApp', () => App);
-		 	RN.AppRegistry.runApplication('MyApp', { rootTag: document.getElementsByClassName('app-container')[0] });
-		 };
+		ctx.Utils.setMainView = (App) => {
+			RN.AppRegistry.registerComponent('MyApp', () => App);
+			RN.AppRegistry.runApplication('MyApp', { rootTag: document.getElementsByClassName('app-container')[0] });
+		};
 
 	}
 }
