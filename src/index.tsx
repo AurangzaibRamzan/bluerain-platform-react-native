@@ -35,7 +35,7 @@ class ReactNative extends Plugin {
 	static slug = 'react-native';
 	static components = {
 
-		// Registering Components
+		// Registering Components 
 		ActivityIndicator,
 		Button,
 		CheckBox,
