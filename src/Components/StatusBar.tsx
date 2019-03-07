@@ -4,7 +4,7 @@ import React from 'react';
 export const StatusBar = (props) => {
 
 	const { styles = {}, ...others } = props;
-
+ 
 	let stylesheet;
 	if (Array.isArray(styles)) {
 		stylesheet = [];
