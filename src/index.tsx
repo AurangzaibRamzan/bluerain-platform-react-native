@@ -56,7 +56,7 @@ class ReactNative extends Plugin {
 		SafeAreaView,
 		View,
 		VirtualizedList,
-		KeyboardAvoidingView
+		KeyboardAvoidingView 
 
 	};
 
