@@ -15,7 +15,8 @@ import {
 	TouchableOpacity,
 	View,
 	VirtualizedList,
-	SafeAreaView
+	SafeAreaView,
+	KeyboardAvoidingView
 } from './Components';
 import { AppState, AsyncStorage, Clipboard, Dimensions, GeoLocation, Linking } from './apis';
 import BR, { BlueRain, Plugin } from '@blueeast/bluerain-os';
@@ -35,7 +36,7 @@ class ReactNative extends Plugin {
 	static slug = 'react-native';
 	static components = {
 
-		// Registering Components 
+		// Registering Components
 		ActivityIndicator,
 		Button,
 		CheckBox,
@@ -55,6 +56,7 @@ class ReactNative extends Plugin {
 		SafeAreaView,
 		View,
 		VirtualizedList,
+		KeyboardAvoidingView
 
 	};
 

@@ -18,6 +18,7 @@ export  { View }  from './View';
 export { VirtualizedList } from   './VirtualizedList';
 export { SafeAreaView } from   './SafeAreaView';
 
+export { KeyboardAvoidingView } from   './keyBoardAvoidingView';
 
 
 
